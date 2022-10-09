@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+.div-1{
+    background-color: rgb(33, 87, 87);
+    height: 25%;
+}
+.div-2{
+    background-color: rgb(218, 125, 19);
+    height: 25%;
+}
+.div-3{
+    background-color: rgb(58, 44, 189);
+    height:25%;
+}
+.div-4{
+    background-color: rgb(71, 168, 67);
+    height:25%;
+}

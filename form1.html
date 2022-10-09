@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form>
+    <lable>UserName</lable>
+    <input type="text" id="userName" placeholder="userName" maxlength="20" name="userName">
+    <br>
+    <br>
+    <lable>Email</lable>
+    <input type="email" placeholder="Email">
+    <br>
+    <br>
+    <label for="date">Birth date</label>
+    <input type="date">
+    <br>
+    <br>
+    <label for="datetime">Registration datetime</label>
+    <input type="datetime-local">
+    <br>
+    <br>
+    <label for="age">Age</label>
+    <input type="number" placeholder="age" min="0" max="15">
+    <br>
+    <br>
+    <label for="password">Password</label>
+    <input type="number" placeholder="password">
+    <br>
+    <br>
+    <label for="img">upload file</label>
+        <input type="file" name="img" id="img" accept="image/*">
+        <br>
+        <br>
+        <label>Courses:</label>
+        <br>
+        <input type="radio" name="gender">
+        <label>Html</label>
+        <input type="radio" name="gender">
+        <label>Css</label>
+        <input type="radio" name="gender">
+        <label>JC</label>
+        <br>
+        <br>
+        <input type="radio" name="gender" value="male">
+        <label>Male</label> 
+        <input type="radio" name="gender" value="female">
+        <label>Female</label>
+        <br>
+        <br>
+        <textarea name="" id="" placeholder="Note" cols="100" rows="12"></textarea>
+        <br>
+        <br>
+        <label>Dropdown list</label>
+        <select>
+            <option disabled selected>select course</option>
+            <optgroup label="frontend">
+              <option value="html">HTML</option>
+              <option value="css">CSS</option>
+              <option value="jv">JV</option>
+            </optgroup>
+
+            <optgroup label="backend">
+                <option value="c#">C#</option>
+                <option value="php">PHP</option>
+                <option value=".net">.NET</option>
+              </optgroup>
+        </select>
+        <br>
+        <br>
+        <a href="https://www.w3schools.com/" target="_blank">w3shool</a>
+        <br>
+        <br>
+        <input type="submit" value="signup" formtarget="_blank">
+        <input type="reset" value="Reset">
+         
+   </form> 
+</body>
+</html>
