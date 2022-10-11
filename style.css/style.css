@@ -47,9 +47,8 @@ text-decoration: none;
 .card{
     
     background-color: rgb(51, 194, 38);
-    height: 30%;
-    width: calc(100vh - 40px);
-    margin:20px;
+    width: 25%;
+  
 }
 
 
