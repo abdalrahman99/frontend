@@ -1,7 +1,7 @@
 .main{
     display: flex;
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */
     align-items: center;
   }
   .layout{
@@ -11,16 +11,15 @@
     max-width: 900px;
   }
   .row{
+     flex-wrap: wrap;
     display: flex;
     margin: 20px;
     border: 1px solid rgb(231, 13, 13);
-    
   }
   .flex-colum{
     flex-direction:column;
     display: flex;
     padding: 20px;
-    
   }
   .row1{
     padding: 20px;
@@ -29,19 +28,17 @@
   .colum{
     border: 1px solid green;
     margin: 12px;
-   
   }
   .col-1{
     flex-grow: 1;
-  flex-basis: 150px;
+    flex-basis: 150px;
   }
-  
   .col-2{
     flex-grow: 2;
-  flex-basis: 150px;
+    flex-basis: 150px;
   }
   .col-3{
     flex-grow: 3;
-  flex-basis: 150px;
+    flex-basis: 150px;
   }
   
