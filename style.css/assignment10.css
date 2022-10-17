@@ -1,0 +1,34 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border: 1px solid black;
+}
+.dashbord{
+    border: 1px solid black;
+    padding: 20px;
+}
+.row{
+   padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    border: 1px solid black;
+}
+.colum{
+    display: flex;
+    flex-direction: colum;
+    padding: 12px;
+    border: 1px solid black;
+}
+.col{
+    padding: 20px; 
+    
+}
+.flex-row{
+    padding: 12px;
+    border: 1px solid black;
+}
+
+
