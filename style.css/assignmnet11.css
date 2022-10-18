@@ -1,0 +1,27 @@
+.containar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+   
+}
+.child{
+    height: 150px;
+    width: 100px;
+    border: 2px solid black;
+
+}
+.child1{
+    flex: 1;
+    flex-direction: column;
+
+}
+child2{
+   flex: 2;
+}
+.parent1{
+    flex-direction: column;
+}
+
