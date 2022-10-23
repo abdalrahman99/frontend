@@ -1,0 +1,106 @@
+nav{
+    display: flex;
+    flex-direction: column;
+   
+}
+li{
+    display: flex;
+     padding: 12px;
+}
+a{
+    display: flex;
+    flex-direction: colum;
+    background-color: cadetblue;
+    color: white;
+}
+.containar{
+   border:1 px solid black;
+}
+.layout{
+    display: flex;
+    background-color: cadetblue;
+    flex-direction: column;
+    border: 1px solid white;
+}
+.colum{
+    display: flex;
+    height: 300px;
+}
+.colum1{
+   color:white;
+    padding: 10px;
+    
+}
+.center{
+    border: 1px solid black;
+    width: 900px;
+    height: 400px;
+}
+h1{
+    padding-top:20% ;
+    text-align: center;
+}
+.number4{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+.row1{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 10px;
+    padding: 10px;
+
+}
+.row2{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+.row3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+.child{
+    background-color: cadetblue;
+    color: white;
+}
+.contanir{
+    border: 1px solid black;
+    padding:50px ;
+}
+.lo{
+    border: 1px solid black;
+    padding: 20px;
+}
+.rows{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col1{
+    border: 1px solid black;
+    gap: 12px;
+}
+.col2{
+    border: 1px solid  black;
+}
+.col3{
+    border: 1px solid black;
+}
+.col4{
+    border: 1px solid black;
+}
