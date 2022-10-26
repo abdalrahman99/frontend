@@ -1,0 +1,71 @@
+/* :root{
+    --primary:#1e90ff;
+    --red:#ff0000;
+    --yellow:#ffc0cb;
+}
+.div{
+    width: 100px;
+    height: 100px;     
+}
+.dev1{
+    background-color: var(--red);
+}
+.dev2{
+    background-color:var(--blue);
+}
+.dev3{
+    background-color: var(--yellow);
+}
+.dev4{
+    background-color: var(--blue);
+}
+.dev5{
+    background-color:var(--red);
+} */
+/*    
+    border: 1px solid black;
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    color: white;
+    transform: rotate(10deg); اذا بدنا الديف مائل 
+    transform: scale(x,y);
+    transform:translate(x,y) */
+
+    /* border: 1px solid black;
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    color: white;
+    transition: width 5s;  */
+           /* تابع ل transition */
+/* #main:hover{
+  width: 400px;
+} */
+    /* انيميشن
+    border: 1px solid black;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    color: white;
+
+} */
+/* #main:hover{
+    animation: myFirstAnimation 5s 5;
+    
+} */
+/* @keyframes myFirstAnimation{
+    0% {transform:translate(0,0);}
+    20% {transform:translate(100px,0);}
+    40% {transform:translate(100px,100px);}
+    60% {transform:translate(0,100px);}
+    100% {transform:translate(0,0);}
+} */
+
+/* @keyframes myFirstAnimation{
+    0% {transform:rotate(10deg);}
+    20% {transform:rotate(100deg);}
+    40% {transform:rotate(150deg);}
+    60% {transform:rotate(200deg);}
+    100% {transform:rotate(300deg);}
+} */
