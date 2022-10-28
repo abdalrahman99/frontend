@@ -1,0 +1,12 @@
+.about-me{
+    border: 1px solid ;
+    width: 100vh;
+    border-radius:1px solid black ;
+    box-shadow: 0 1px 5px black;
+    padding: 10px;
+    
+
+}
+.about-me img{
+    width: 100vh;     
+}

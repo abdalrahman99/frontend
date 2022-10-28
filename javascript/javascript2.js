@@ -1,4 +1,3 @@
-
 function calc(){
 
     let firstnumber = document.getElementById("first-number");
