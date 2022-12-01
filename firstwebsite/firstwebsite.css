@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -31,16 +32,13 @@ header{
     color: white;
     text-transform:capitalize;
     font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 1rem;
     display: flex; 
 }
-.logo i{
-    color:white;
-    margin: 10px;
-}
+
 .navigation a{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
     margin: 0 8px;
 }
@@ -54,23 +52,25 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
+
 section{
     margin: auto;
 }
 .main{
     width: 100%;
-    min-height: 100vh;
-    background-image: url(/images/front.png);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 150px;
+    height: 570px;
+    margin: auto;
 }
 .main h2{
     padding: 10px;
-   color:white;
+   color:black;
    font-size: 2rem;
    font-weight: 400;
 }
@@ -83,7 +83,7 @@ section{
 
 }
 .main h1{
-    color: white;
+    color:black;
 }
 .social-icon a{
     padding: 10px;
@@ -95,8 +95,7 @@ section{
     text-align: center;
     color:black;
     font-size: 1.8rem;
-    margin: 1rem 0 3rem;
-}
+    margin: 5rem 0px 1rem;}
 /* end main */
 /* skills */
 .skill{
@@ -132,15 +131,13 @@ section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1.4erm;
     justify-content: center;
-    padding: 3rem;
-}
+    padding: 0.5rem 3rem}
 
 .card{
     background-color:white;
     width: 300px;
-    box-shadow: 0 1px 5px black;
+    box-shadow: inset -5px -4px 0px 0px black;
     padding: 10px;
     border-radius: 8px;
     transition: 0.7s ease;
@@ -205,12 +202,15 @@ section{
 }
 .contact-card{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .footer{
     background-color:black;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     padding: 2rem;
     color: #fff;
 
@@ -221,16 +221,4 @@ section{
 }
 .footer-title span{
     color: wheat;
-}
-
-@media(max-width:1000px){
-    .main{
-        padding-left:30px;
-    }
-    header{
-        padding: 1rem 1rem;
-    }
-    .project-card{
-        width: 320px;
-    }
 }
